@@ -1,0 +1,767 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <meta charset="utf-8"/>
+    
+    <title>Suoky.com - Amazing world of online games for girls!</title>
+    
+    <meta property="og:title" content="Suoky.com Online Games"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://suoky.com"/>
+    <meta property="og:image" content="http://suoky.com/img/logo.png"/>
+    <meta property="og:site_name" content="Suoky.com"/>
+    <meta property="og:description" content="Discover the amazingly fun world of online games for girls! Visit www.suoky.com and let the fun begin!"/>
+    
+    <link rel="canonical" href="http://suoky.com" />
+    
+    <meta name="description" content="Discover the amazingly fun world of online games for girls! Visit www.suoky.com and let the fun begin!"/>
+    <meta name="keywords" content="suoky, suoky.com,suoky games, suoky online games, suoky free games, suoky games online"/>
+    
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+    <link href="css/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" media="screen"/>
+    
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/jquery.masonry.min.js"></script>
+    <script type="text/javascript" src="js/jquery.infinitescroll.min.js"></script>
+    
+    <!-- Add Fancybox and Email Validation -->
+    <script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
+    <script type="text/javascript" src="js/form-mail.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            
+            resizeHomePage();
+
+            $(window).resize(function(){
+                resizeHomePage();
+            });
+            
+            fancybox_contact_socialmedia();
+            
+            showMenuAllGamesHomePage();
+            
+            showThumbHomePage();
+        });
+    </script>
+    
+    
+
+<script type="text/javascript">
+  window.google_analytics_uacct = "UA-36644108-13";
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36644108-13']);
+  _gaq.push(['_setDomainName', 'suoky.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div id="header-container" class="main-top">
+        <div class="header-over">
+            <div class="header">
+                <div class="logo" style="float: left;">
+                    <a href="http://suoky.com/">
+                        <h1 style="border:0px;"><img alt="Suoky - Games for girls" src="img/logo.png" title="Suoky - Games for girls"></h1>
+                    </a>
+                </div>
+                <div class="search-outer">
+                    <div class="search-inner">
+                    <form method="POST" autocomplete="off">
+                        <input name="game" type="text" value="Search Game" onblur="if(this.value=='') this.value='Search Game';" onfocus="if(this.value=='Search Game') this.value='';" onkeyup="DoQuickSearch(this.value);"/>
+                        <button type=""></button>
+                    </form>
+                    </div>
+                    <div class="quicksearch_container"></div>
+                </div>
+                <div class="menu-all-games">
+
+                    <div class="top-menu">
+                        <img src="img/arrow_down.png">
+                    </div>
+                    <!-- Menu All Categories -->
+                    <div id="menu-item" class="menu-item">
+                                                    <div id="column1" class="column1">
+                                <div class="item"><a href="./" class="documents">All Games</a></div>
+                                                                    <div class="item"><a href="../category/dress-up" class="documents">Dress Up</a></div>
+                                                                        <div class="item"><a href="../category/make-up" class="documents">Make Up</a></div>
+                                                                        <div class="item"><a href="../category/makeover" class="documents">Makeover</a></div>
+                                                                        <div class="item"><a href="../category/facial-makeover" class="documents">Facial Makeover</a></div>
+                                                                        <div class="item"><a href="../category/skill" class="documents">Skill</a></div>
+                                                                        <div class="item"><a href="../category/hair" class="documents">Hair</a></div>
+                                                                        <div class="item"><a href="../category/animal" class="documents">Animal</a></div>
+                                                                        <div class="item"><a href="../category/simulation" class="documents">Simulation</a></div>
+                                                                        <div class="item"><a href="../category/cartoon" class="documents">Cartoon</a></div>
+                                                                        <div class="item"><a href="../category/cooking" class="documents">Cooking</a></div>
+                                                                </div>
+                            <div id="column2" class="column2">
+                                                                    <div class="item"><a href="../category/baby" class="documents">Baby</a></div>
+                                                                        <div class="item"><a href="../category/decorating" class="documents">Decorating</a></div>
+                                                                        <div class="item"><a href="../category/caring" class="documents">Caring</a></div>
+                                                                        <div class="item"><a href="../category/other" class="documents">Other</a></div>
+                                                                        <div class="item"><a href="../category/celebrity" class="documents">Celebrity</a></div>
+                                                                        <div class="item"><a href="../category/wedding" class="documents">Wedding</a></div>
+                                                                        <div class="item"><a href="../category/love" class="documents">Love</a></div>
+                                                                        <div class="item"><a href="../category/adventure" class="documents">Adventure</a></div>
+                                                                        <div class="item"><a href="../category/nail" class="documents">Nail</a></div>
+                                                                        <div class="item"><a href="../category/management" class="documents">Management</a></div>
+                                                                </div>
+                                                </div>
+                    <!-- End Menu -->
+                </div>
+                <div id="contact">
+                    <a href="static-pages/contact.html" class="contact fancybox fancybox.iframe" title="Contact"></a>
+                </div>
+                <div id="privacy">
+                    <a href="static-pages/privacy.html" class="privacy fancybox fancybox.iframe" title="Privacy Policy"></a>
+                </div>
+                <div class="g-plus-buttom">
+                    <div class="g-plusone" data-size="medium" data-href="https://plus.google.com/112660142599230849163"></div>
+                    <script type="text/javascript">
+                      (function() {
+                        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                        po.src = 'https://apis.google.com/js/plusone.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                      })();
+                    </script>
+                </div>
+                <div class="fb-like-buttom">
+                    <div class="fb-like" data-href="http://www.facebook.com/pages/Suoky/428725760543513" data-send="false" data-layout="button_count" data-width="73" data-height="40" data-show-faces="false"></div>
+                </div>
+                <div class="clear_fix"></div>
+            </div>
+        </div>
+        <div class="clear_fix"></div>
+    </div>
+    <div class="main">
+        <div class="pages">
+            <!-- Top Panel -->
+            <div class="outer-content-top">
+                <div id="left" class="left" onclick="carouSelLeft();"></div>
+                <div class="content-top">
+                    <div class="content-top">
+                        <div class="top-options">
+                            <button type="button" id="top-games" class="active">Top Games</button>
+                            <button type="button" id="last-played">Last Played</button>
+                            <button type="button" id="favorites">Favorites</button>
+                        </div>
+                        <div class="bottom-options">
+                            <div id="most-played-option" class="most-played-option">
+
+                            </div>
+                            <div id="last-played-option" class="last-played-option">
+
+                            </div>
+                            <div id="favorites-option" class="favorites-option">
+
+                            </div>
+                            <script>
+                              getPopularGames();
+                              getLastPlayed();
+                              getFavorites();
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <div id="right" class="right" onclick="carouSelRight();"></div>
+            </div>
+            
+            <!-- Main Panel -->
+            <div id="content-items" class="center-outer">
+                <div id="content" class="center-inner">
+                    <div id="items" class="items">
+                        <div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Fairytale Baby Room Decoration</div>
+                                            <div id="categ" class="categ">Decorating</div>
+                                            <div id="desc" class="desc">Design the prettiest fairytale baby room and<br />
+prove you are a great interior designer!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/fairytale-baby-room-decoration" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/fairytale-baby-room-decoration-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Red Riding Hood Adventures</div>
+                                            <div id="categ" class="categ">Cooking | Dress Up | Skill</div>
+                                            <div id="desc" class="desc">Play the four mini games and help Red Riding<br />
+Hood get at the granny's house. Have fun!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/red-riding-hood-adventures" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/red-riding-hood-adventures-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Baby Hazel Fancy Dress</div>
+                                            <div id="categ" class="categ">Skill</div>
+                                            <div id="desc" class="desc">Baby Hazel is going to participate at a fancy<br />
+dress competition. Help her with the costume!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/baby-hazel-fancy-dress" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/baby-hazel-fancy-dress-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Princess Royal Salon</div>
+                                            <div id="categ" class="categ">Facial Makeover | Dress Up | Makeover</div>
+                                            <div id="desc" class="desc">Play with one of the most beautiful<br />
+princesses and pamper her up at the Royal<br />
+Salon.</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/princess-royal-salon" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/princess-royal-salon-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name"> Cocoa Ripple Cake</div>
+                                            <div id="categ" class="categ">Cooking</div>
+                                            <div id="desc" class="desc">Want to prepare something really delicious?<br />
+Then make this Cocoa Ripple Cake recipe. </div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/cocoa-ripple-cake" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/cocoa-ripple-cake-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Ready for Vacation</div>
+                                            <div id="categ" class="categ">Makeover</div>
+                                            <div id="desc" class="desc">Lisa is getting ready for her summer<br />
+vacation. Help her look amazing for her trip.</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/ready-for-vacation" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/ready-for-vacation-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Fluffy Puppy Pet Spa And Care</div>
+                                            <div id="categ" class="categ">Animal | Caring</div>
+                                            <div id="desc" class="desc">Play with the most adorable baby-dog. Pamper<br />
+him and dress him up in cute outfits!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/fluffy-puppy-pet-spa-and-care" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/fluffy-puppy-pet-spa-and-care-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Poppy O'Hair Dress Up</div>
+                                            <div id="categ" class="categ">Dress Up | Makeover</div>
+                                            <div id="desc" class="desc">Poppy loves to dress up in trendy outfits.<br />
+Pick up for her a summerish and colorful one!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/poppy-o-hair-dress-up" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/poppy-o-hair-dress-up-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Mia Cooking Spicy Beef Burger</div>
+                                            <div id="categ" class="categ">Cooking</div>
+                                            <div id="desc" class="desc">Help Mia cook the most delicious burgers ever<br />
+for her family. Enjoy!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/mia-cooking-spicy-beef-burger" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/mia-cooking-spicy-beef-burger-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Barbie Nails Spa </div>
+                                            <div id="categ" class="categ">Nail</div>
+                                            <div id="desc" class="desc">For the tonight party Barbie's nails must<br />
+look perfect. Try the tons of colors and nail<br />
+designs!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/barbie-nails-spa" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/barbie-nails-spa-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Princess Cake Cooking</div>
+                                            <div id="categ" class="categ">Cooking | Decorating</div>
+                                            <div id="desc" class="desc">Be the best chef in town and make some<br />
+delicious and amazing cakes! Have fun.</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/princess-cake-cooking" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/princess-cake-cooking-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Summer Runway Secrets </div>
+                                            <div id="categ" class="categ">Dress Up</div>
+                                            <div id="desc" class="desc">This beautiful model needs an amazing summer<br />
+outfit. Help her choose from the tons of<br />
+dresses!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/summer-runway-secrets" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/summer-runway-secrets-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Puppy Spa</div>
+                                            <div id="categ" class="categ">Animal | Caring</div>
+                                            <div id="desc" class="desc">This cute dog needs a bath and some pampering<br />
+time. It will make him very happy.</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/puppy-spa" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/puppy-spa-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Gorgeous Go Go Dancing Girls</div>
+                                            <div id="categ" class="categ">Dress Up</div>
+                                            <div id="desc" class="desc">The two beautiful girls are having a go-go<br />
+competition. Help them look breathtaking!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/gorgeous-go-go-dancing-girls" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/gorgeous-go-go-dancing-girls-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Dora's Forest Camp Cleaning</div>
+                                            <div id="categ" class="categ">Skill</div>
+                                            <div id="desc" class="desc">Dora is camping with Diego in the forest and<br />
+she needs to keep everything clean. Help her<br />
+with that.</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/dora-s-forest-camp-cleaning" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/dora-s-forest-camp-cleaning-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Elsa Beauty Salon</div>
+                                            <div id="categ" class="categ">Dress Up | Makeover | Nail</div>
+                                            <div id="desc" class="desc">Make princess Elsa look amazing and take her<br />
+at the manicure and beauty salon. Have fun.  </div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/elsa-beauty-salon" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/elsa-beauty-salon-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Baby Hazel Ballerina Dance</div>
+                                            <div id="categ" class="categ">Baby | Simulation</div>
+                                            <div id="desc" class="desc">It's Baby Hazel's first dance class and she<br />
+is very shy. Go with her and encourage her.</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/baby-hazel-ballerina-dance" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/baby-hazel-ballerina-dance-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Ratatouille Pizza</div>
+                                            <div id="categ" class="categ">Cooking</div>
+                                            <div id="desc" class="desc">It's pizza time! Help your mother prepare<br />
+some ratatouille pizza and have fun!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/ratatouille-pizza" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/ratatouille-pizza-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Barbie Wedding Prep Makeover</div>
+                                            <div id="categ" class="categ">Dress Up | Make Up</div>
+                                            <div id="desc" class="desc">Beautiful Barbie is about to get married.<br />
+Take her at the shop and help her get the<br />
+right gown.</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/barbie-wedding-prep-makeover" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/barbie-wedding-prep-makeover-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Pirate Fairy Iridessa Make Up</div>
+                                            <div id="categ" class="categ">Facial Makeover | Dress Up | Make Up</div>
+                                            <div id="desc" class="desc">Take princess fairy Iridessa at the spa. Then<br />
+dress her up and apply some colorful make up.<br />
+</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/pirate-fairy-iridessa-make-up" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/pirate-fairy-iridessa-make-up-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Sofia Flower Girl</div>
+                                            <div id="categ" class="categ">Simulation</div>
+                                            <div id="desc" class="desc">Sofia's auntie, Jane, is getting married<br />
+tomorrow so help Sofia buy a beautiful dress<br />
+for her!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/sofia-flower-girl" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/sofia-flower-girl-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Rapunzel Wedding Dress Up</div>
+                                            <div id="categ" class="categ">Dress Up</div>
+                                            <div id="desc" class="desc">Rapunzel is going to get married. Help her<br />
+pick the right dress and some sparkling<br />
+accessories.</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/rapunzel-wedding-dress-up" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/rapunzel-wedding-dress-up-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Tinkerbell Birthday Cake Decor</div>
+                                            <div id="categ" class="categ">Cooking | Decorating</div>
+                                            <div id="desc" class="desc">Today it's Tinker Bell's birthday. Decorate<br />
+for her a beautiful cake and surprise her. </div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/tinkerbell-birthday-cake-decor" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/tinkerbell-birthday-cake-decor-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Monster Baby Feeding</div>
+                                            <div id="categ" class="categ">Baby | Caring</div>
+                                            <div id="desc" class="desc">Draculaura has a very sweet baby that needs a<br />
+lot of things at night to feel comfy. </div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/monster-baby-feeding" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/monster-baby-feeding-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Fab Hair Salon</div>
+                                            <div id="categ" class="categ">Dress Up | Hair</div>
+                                            <div id="desc" class="desc">This beautiful girl needs a new haircut. Be<br />
+her hairstylist and make her look gorgeous!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/fab-hair-salon" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/fab-hair-salon-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Forest Princess Spa</div>
+                                            <div id="categ" class="categ">Facial Makeover</div>
+                                            <div id="desc" class="desc">Enjoy a wonderful time with the beautiful<br />
+Forest Princess in the most awesome spa ever.<br />
+Have fun!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/forest-princess-spa" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/forest-princess-spa-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Perfect Tan Preparation</div>
+                                            <div id="categ" class="categ">Facial Makeover | Makeover</div>
+                                            <div id="desc" class="desc">Summer is the perfect time for a tanned skin.<br />
+Help the beautiful girl get ready for the<br />
+beach!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/perfect-tan-preparation" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/perfect-tan-preparation-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Doc McStuffins New Clinic</div>
+                                            <div id="categ" class="categ">Decorating | Other</div>
+                                            <div id="desc" class="desc">Doc McStuffins moved into a new clinic. Help<br />
+her decorate the place and receive her cute<br />
+patients.</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/doc-mcstuffins-new-clinic" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/doc-mcstuffins-new-clinic-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Barbie Haircuts Creator</div>
+                                            <div id="categ" class="categ">Hair | Skill</div>
+                                            <div id="desc" class="desc">Barbie is a beauty. She has to look fabulous<br />
+so be her personal hairstylist. Make her<br />
+shine!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/barbie-haircuts-creator" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/barbie-haircuts-creator-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Spicy Broccoli Chicken</div>
+                                            <div id="categ" class="categ">Cooking</div>
+                                            <div id="desc" class="desc">Help the Chef prepare for her clients the<br />
+best spicy broccoli chicken in town. Enjoy!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/spicy-broccoli-chicken" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/spicy-brocolli-chicken-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Summer Vacation Dress Up</div>
+                                            <div id="categ" class="categ">Dress Up</div>
+                                            <div id="desc" class="desc">Choosing the right summer vacation clothes is<br />
+fun and cool. Try some colorful  outfits!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/summer-vacation-dress-up" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/summer-vacation-dress-up-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Monster High Ghouls Coloring</div>
+                                            <div id="categ" class="categ">Cartoon | Coloring</div>
+                                            <div id="desc" class="desc">Use your imagination and color your favorite<br />
+Monster High characters and their pets.</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/monster-high-ghouls-coloring" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/monster-high-ghouls-coloring-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Tea Party Memory Game</div>
+                                            <div id="categ" class="categ">Skill | Other</div>
+                                            <div id="desc" class="desc">Oh no! Your friend is hosting a party but she<br />
+muddled the cakes. Help her with them!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/tea-party-memory-game" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/tea-party-memory-game-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Shirley Summer Spa</div>
+                                            <div id="categ" class="categ">Makeover</div>
+                                            <div id="desc" class="desc">There is no summer without relaxing spa<br />
+treatments. Have great moments at this summer<br />
+spa!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/shirley-summer-spa" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/shirley-summer-spa-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Dance With the Swans Dress Up</div>
+                                            <div id="categ" class="categ">Dress Up</div>
+                                            <div id="desc" class="desc">Felicia has to look amazing for tonight<br />
+because she is going to dance with the swans.<br />
+</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/dance-with-the-swans-dress-up" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/dance-with-the-swans-dress-up-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Minnie Mouse Surprise Cake </div>
+                                            <div id="categ" class="categ">Cartoon | Cooking</div>
+                                            <div id="desc" class="desc">Prepare a delicious Minnie Mouse Cake for<br />
+your best friend's birthday. </div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/minnie-mouse-surprise-cake" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/minnie-mouse-surprise-cake-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name"> Elissabat Haircuts</div>
+                                            <div id="categ" class="categ">Cartoon | Hair</div>
+                                            <div id="desc" class="desc">Elissabat needs a new hairstylist. Prove her<br />
+that you are the best in town! Enjoy!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/elissabat-haircuts" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/elissabat-haircuts-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Fairytale Baby: Tinkerbell Caring</div>
+                                            <div id="categ" class="categ">Baby | Caring</div>
+                                            <div id="desc" class="desc">Tinkerbell is an adorable baby! Play with her<br />
+and pamper her. She will feel amazing! Have<br />
+fun!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/fairytale-baby-tinkerbell-caring" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/fairytale-baby-tinkerbell-caring-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Barbies Cosy Room Decorating</div>
+                                            <div id="categ" class="categ">Decorating</div>
+                                            <div id="desc" class="desc">Barbie loves to decorate her house. She will<br />
+really appreciate if you will give her a<br />
+helping hand!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/barbies-cosy-room-decorating" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/barbies-cosy-room-decorating-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Sofia and Newborn Sister </div>
+                                            <div id="categ" class="categ">Baby | Simulation</div>
+                                            <div id="desc" class="desc">Sofia has a little sister. She is excited<br />
+about it so she decided to decorate the<br />
+newborn's room.</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/sofia-and-newborn-sister" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/sofia-and-newborn-sister-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Baby Hazel Laundry Time</div>
+                                            <div id="categ" class="categ">Baby | Simulation</div>
+                                            <div id="desc" class="desc">Baby Hazel will learn everything about<br />
+laundry today. Help her with the laundry<br />
+process!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/baby-hazel-laundry-time" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/baby-hazel-laundry-time.png"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Summer Braided Hairstyles</div>
+                                            <div id="categ" class="categ">Hair</div>
+                                            <div id="desc" class="desc">Summer is all about braided hairstyles. So<br />
+play this game and make some pretty<br />
+coiffures.    </div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/summer-braided-hairstyles" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/summer-braided-hairstyles-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Beach Day Match</div>
+                                            <div id="categ" class="categ">Skill | Other</div>
+                                            <div id="desc" class="desc">Help the beautiful girls build their<br />
+sandcastle by matching 3 or more similar<br />
+seashells. Good luck!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/beach-day-match" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/beach-day-match-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Cinderella's Glamorous Makeup</div>
+                                            <div id="categ" class="categ">Make Up | Makeover</div>
+                                            <div id="desc" class="desc">Cinderella is going at the ball tonight. She<br />
+must look breathtaking to impress the<br />
+charming prince! </div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/cinderellas-glamorous-makeup" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/cinderella-s-glamorous-makeup-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Little Mermaid Cake</div>
+                                            <div id="categ" class="categ">Cooking</div>
+                                            <div id="desc" class="desc">Deserts are yummilicious! Play this game and<br />
+prepare the delicious Little Mermaid Cake!<br />
+Enjoy!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/little-mermaid-cake" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/little-mermaid-cake-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Baby Girl House Decor</div>
+                                            <div id="categ" class="categ">Baby | Decorating</div>
+                                            <div id="desc" class="desc">Decorate the little baby's house into the<br />
+most great and colorful house! He will be<br />
+very happy!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/baby-girl-house-decor" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/baby-girl-house-decor-suoky.png"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Princess Jasmine Royal Makeover </div>
+                                            <div id="categ" class="categ">Cartoon | Makeover</div>
+                                            <div id="desc" class="desc">Princess Jasmine is going to marry her<br />
+beloved Aladdin. Give her a hand and make her<br />
+look amazing!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/princess-jasmine-royal-makeover" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/princess-jasmine-royal-makeover-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Baby Elsa Great Manicure </div>
+                                            <div id="categ" class="categ">Baby | Nail</div>
+                                            <div id="desc" class="desc">Baby Elsa loves colors. Today she will do her<br />
+manicure so help her choose some bright<br />
+shades! </div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/baby-elsa-great-manicure" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/baby-elsa-great-manicure-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Lovely House Design</div>
+                                            <div id="categ" class="categ">Decorating</div>
+                                            <div id="desc" class="desc">Have you ever thought about your dream house?<br />
+Now you can design it however you want.<br />
+Enjoy!</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/lovely-house-design" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/lovely-house-design-suoky.jpg"/>
+                                        </a>
+                                </div><div id="item" class="item">      <div id="game-info" class="game-info">
+                                            <div id="arrow-up" class="arrow-up"></div>
+                                            <div id="name" class="name">Baby Beauty Pageant Makeover</div>
+                                            <div id="categ" class="categ">Baby | Caring | Makeover</div>
+                                            <div id="desc" class="desc">This cutie wants to win the baby beauty<br />
+pageant contest. Help her mommy get her ready<br />
+for the contes</div>
+                                            <div id="arrow-down" class="arrow-down"></div>
+                                        </div>      <a href="game/baby-beauty-pageant-makeover" class="tooltip-game-info">
+                                            <img src="http://img.suoky.com/i/games_images/150x150/baby-beauty-pageant-makeover-suoky.jpg"/>
+                                        </a>
+                                </div>                    </div>
+                    <div id="page-nav">
+                        <a href="page2.php"></a>
+                    </div>
+                    <script type="text/javascript">
+                        infScrollDown();
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <a href="static-pages/social-media.html" class="launch-fb-like-box fancybox fancybox.iframe" data-fancybox-width="308" data-fancybox-height="327"></a>
+    <script type="text/javascript">
+      $('#top-games').click(function(){
+        $('#last-played-option').fadeOut('fast');
+        $('#last-played').removeClass('active');
+        $('#favorites-option').fadeOut('fast');
+        $('#favorites').removeClass('active');
+        $('#most-played-option').fadeIn();
+        $('#top-games').addClass('active');
+      });
+      
+      $('#last-played').click(function(){
+        $('#most-played-option').fadeOut('fast');
+        $('#top-games').removeClass('active');
+        $('#favorites-option').fadeOut('fast');
+        $('#favorites').removeClass('active');
+        $('#last-played-option').fadeIn();
+        $('#last-played').addClass('active');
+      });
+      
+      $('#favorites').click(function(){
+        $('#most-played-option').fadeOut('fast'); 
+        $('#top-games').removeClass('active');
+        $('#last-played-option').fadeOut('fast');
+        $('#last-played').removeClass('active');
+        $('#favorites-option').fadeIn();
+        $('#favorites').addClass('active');
+      });
+    </script>
+    <script type="text/javascript" src="js/gamelist.js"></script>
+</body>
+</html>
